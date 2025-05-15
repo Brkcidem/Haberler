@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Haberler</string>
+    <string name="news_image">Haber görseli</string>
+    <string name="error_loading_news">Haberler yüklenirken bir hata oluştu</string>
+    <string name="try_again">Tekrar Dene</string>
+    <string name="share_news">Haberi paylaş</string>
+    
+    <!-- Arama -->
+    <string name="search_hint">Haberlerde ara…</string>
+    
+    <!-- Kategoriler -->
+    <string name="category_all">Tümü</string>
+    <string name="category_business">Ekonomi</string>
+    <string name="category_technology">Teknoloji</string>
+    <string name="category_sports">Spor</string>
+    <string name="category_entertainment">Magazin</string>
+    <string name="category_health">Sağlık</string>
+    <string name="category_science">Bilim</string>
+</resources>

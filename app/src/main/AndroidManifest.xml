@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1. Manifest kök elementi - uygulama temel ayarları -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.haberler">
+
+    <!-- 2. İnternet izni - API istekleri için gerekli -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 3. Ağ durumu izni - bağlantı kontrolü için -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 4. Uygulama ana ayarları -->
+    <application
+        android:name=".HaberlerApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- 5. Ana aktivite tanımı -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!-- 6. Launcher intent filter - uygulamanın başlangıç noktası -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

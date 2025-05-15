@@ -1,0 +1,20 @@
+<resources>
+    <color name="background_color">#FAFAFA</color> <!-- En arka plan -->
+    <color name="card_background">#FFFFFF</color> <!-- Kart arka planı -->
+    <color name="text_primary">#212121</color> <!-- Başlık ve önemli yazılar -->
+    <color name="text_secondary">#616161</color> <!-- Açıklamalar ve ikincil yazılar -->
+    <color name="accent_color">#FFC107</color> <!-- Öne çıkan detaylar için amber -->
+    <color name="chip_stroke">#BDBDBD</color> <!-- Chip kenarlık -->
+    <color name="chip_selected">#FFECB3</color> <!-- Seçili chip arka planı -->
+    <color name="chip_text_selected">#212121</color>
+
+    <color name="coffee_chip_checked">#C19A6B</color> <!-- Seçili chip arka plan -->
+    <color name="coffee_chip_default">#F4EFE6</color> <!-- Normal chip arka plan -->
+    <color name="coffee_text">#3E2723</color> <!-- Yazı rengi -->
+
+
+    <color name="colorPrimary">#795548</color>       <!-- Kahverengi ton -->
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorAccent">#FF5722</color>
+
+</resources>
